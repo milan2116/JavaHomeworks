@@ -1,51 +1,27 @@
-# 🟩 Haskell Wordle
+# ☕ Java Homeworks Collection
 
-A terminal-based clone of the popular game **Wordle**, written in Haskell. Includes multiple difficulty levels and a helper mode that can act as a Wordle-solving assistant.
+This repository is a compilation of various Java programming assignments completed as part of a university course.
 
-## 🔧 Features
+## 📚 About
 
-- **Game Mode**
-  - 🔹 Easy Mode: Standard guessing with validation.
-  - 🔹 Standard Mode: Classic Wordle gameplay.
-  - 🔹 Expert Mode: Includes a twist—one lie in the feedback is possible.
+Each subdirectory contains a standalone homework task focused on core Java concepts such as:
 
-- **Helper Mode**
-  - 🧠 Standard Helper: Enter feedback manually; the game suggests optimal guesses.
-  - 🧠 Expert Helper: Assists with gameplay involving misleading feedback.
+- Object-Oriented Programming (OOP)
+- File I/O and Exception Handling
+- Data Structures and Algorithms
+- Miscellaneous small Java projects and problem-solving exercises
 
-## ▶️ Usage
+## 🚀 Getting Started
 
-### Run the game
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/milan2116/JavaHomeworks.git
+   ```
 
-```bash
-cabal run
-```
+2. Open the desired folder in your Java IDE (e.g., IntelliJ, Eclipse, or VSCode).
 
-Then follow the prompts in the terminal to choose between `game` and `helper` modes.
+3. Compile and run the `.java` files.
 
-## 🧩 Game Rules
+## 🧑‍🎓 Educational Use
 
-- Guess a **5-letter word** within **6 turns**.
-- Feedback:
-  - `G`: Correct letter, correct position.
-  - `Y`: Correct letter, wrong position.
-  - `X`: Letter not in the word.
-
-- In Expert Mode, the game can return **one misleading response** (a "lie") during the game.
-
-## 📁 Project Structure
-
-- `Main.hs`: Main game logic.
-- `Words.hs`: Contains the word list (not shown here).
-- `Wordle.cabal`: Cabal configuration file.
-
-## 📦 Requirements
-
-- [GHC (Glasgow Haskell Compiler)](https://www.haskell.org/ghc/)
-- [Cabal](https://www.haskell.org/cabal/)
-
-## 📌 Todo
-
-- Improve Expert Helper logic to account for lies.
-- Add tests and word list enhancements.
-
+These homeworks were developed in a learning context and can serve as examples for students exploring Java fundamentals.

@@ -14,9 +14,6 @@ import java.util.List;
 public class RecipeClient {
 
     private final Gson gson = new Gson();
-    public static final String API_URL = "https://api.edamam.com/api/recipes/v2";
-    public static final String APP_ID = "51f194ab";
-    public static final String APP_KEY = "3efa16656bd9f38f0f0d0365a926f559";
     public static final int MAX_PAGES = 5;
 
     public List<Recipe> searchRecipes(String query, String mealType, String health) throws RecipeClientException {
